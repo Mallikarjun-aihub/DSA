@@ -1,11 +1,18 @@
-# DSA
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+# DSA Practice
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0007-reverse-integer](https://github.com/Mallikarjun-aihub/DSA/tree/master/0007-reverse-integer) |
-| [0009-palindrome-number](https://github.com/Mallikarjun-aihub/DSA/tree/master/0009-palindrome-number) |
-<!---LeetCode Topics End-->
+My solutions to LeetCode and GeeksforGeeks problems, organized by platform and difficulty. Pushed automatically as I solve them.
+
+## Structure
+LeetCode/
+├── Easy/
+├── Medium/
+└── Hard/
+GFG/
+├── Basic/
+├── Easy/
+├── Medium/
+└── Hard/
+
+Each problem folder contains:
+- `solution.txt` — my code
+- `README.md` — problem difficulty and source link
