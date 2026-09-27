@@ -1,7 +1,0 @@
-class Solution {
-  public:
-    void printNos(int n) {
-        // code here
-        
-    }
-};
