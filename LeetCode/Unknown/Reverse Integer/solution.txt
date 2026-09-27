@@ -1,0 +1,33 @@
+# Intuition
+<!-- Describe your first thoughts on how to solve this problem. -->
+
+# Approach
+<!-- Describe your approach to solving the problem. -->
+
+# Complexity
+- Time complexity:
+<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+
+- Space complexity:
+<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+
+# Code
+```cpp []
+class Solution {
+public:
+    int reverse(int x) {
+        int rev=0;
+        int ld;
+        while(x!=0)
+        {
+            ld=x%10;
+            x=x/10;
+            if (rev > INT_MAX / 10 || (rev == INT_MAX / 10 && ld > 7)) return 0;
+            if (rev < INT_MIN / 10 || (rev == INT_MIN / 10 && ld < -8)) return 0;
+            rev=rev*10+ld;
+        }
+        return rev;
+        
+    }
+};
+```
