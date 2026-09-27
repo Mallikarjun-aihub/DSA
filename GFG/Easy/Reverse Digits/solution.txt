@@ -1,0 +1,15 @@
+class Solution {
+  public:
+    int reverseDigits(int n) {
+        int digit,rev=0;
+        // Code here
+        while(n>0)
+        {
+            digit=n%10;
+            n=n/10;
+            rev=rev*10+digit;
+            
+        }
+        return rev;
+    }
+};
