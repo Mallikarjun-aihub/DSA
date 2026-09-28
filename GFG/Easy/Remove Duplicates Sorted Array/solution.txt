@@ -1,0 +1,14 @@
+class Solution {
+  public:
+    vector<int> removeDuplicates(vector<int> &arr) {
+        // code here
+        int n=arr.size();
+        set<int> st;
+        for(int i=0;i<n;i++){
+            st.insert(arr[i]);
+        }
+        
+         return vector<int>(st.begin(), st.end());
+       
+    }
+};
